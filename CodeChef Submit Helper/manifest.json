@@ -1,0 +1,11 @@
+{
+  "name": "CodeChef Submit Helper",
+  "version": "1.0",
+  "description": "Adds a submit button to past contest problems.",
+  "content_scripts": [{
+      "matches": ["*://*.codechef.com/*"],
+      "js": ["add.js"],
+      "run_at": "document_end"
+  }],
+  "manifest_version": 2
+}
