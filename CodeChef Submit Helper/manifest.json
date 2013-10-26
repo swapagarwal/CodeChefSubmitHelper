@@ -1,7 +1,7 @@
 {
   "name": "CodeChef Submit Helper",
-  "version": "1.0.1",
-  "description": "Adds a submit button to past contest problems.",
+  "version": "2.0",
+  "description": "Adds a submit button to past contest problems and sets their submissions and accuracy stats to zero.",
   "content_scripts": [{
       "matches": ["*://*.codechef.com/*"],
       "js": ["add.js"],
